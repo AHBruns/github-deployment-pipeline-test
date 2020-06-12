@@ -10,6 +10,6 @@ jobs:
       - name: load repo
         id: load-repo
         uses: actions/checkout@v2
-      - name: Hello world action step
-        id: hello
-        uses: AHBruns/actions@v4
+      - name: run index js
+        id: run-index-js
+        uses: AHBruns/actions@v5
